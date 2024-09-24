@@ -25,7 +25,6 @@ export default function ContactForm() {
 
   function handleSubmit(values, actions) {
     const contact = {
-      id: nanoid(),
       name: values.name,
       number: values.number,
     };
